@@ -19,7 +19,7 @@ body {
     margin-left: 100px;
 }
 
-ul {
+.links {
     font-size: 18px;
     color: #E5e7eb;
     list-style-type: none;
@@ -31,7 +31,8 @@ ul {
 
 
 .mid {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main {
@@ -61,10 +62,38 @@ ul {
     border: transparent;
 }
 
-img {
-    float: right;
+.bottle {
+   /*float: right;*/
     margin-right: 100px;
     margin-top: 100px;
-    height: 350px;
+    height: 400px;
     width: auto;
 }
+
+.info {
+    background-color: white;
+    
+}
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 48px;
+    margin-top: 24px;
+}
+
+.palms {
+    text-align: center;
+}
+
+.pics {
+    display: inline-block;
+    padding-top: 48px;
+    max-width: 200px;
+    padding: 75px;
+    font-size: 18px;
+    color: lightslategray;
+}
+
