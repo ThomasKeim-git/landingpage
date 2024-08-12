@@ -1,5 +1,9 @@
 body {
     font-family: Roboto, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .hero {
@@ -17,6 +21,11 @@ body {
     display: flex;
     align-items: center;
     margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .links {
@@ -92,8 +101,94 @@ body {
     display: inline-block;
     padding-top: 48px;
     max-width: 200px;
-    padding: 75px;
+    padding: 25px;
     font-size: 18px;
     color: lightslategray;
+    margin-bottom: 75px;
 }
 
+.stripe {
+    background-color: #E5E7EB;
+    max-height: 1000px;
+}
+
+.quote {
+    margin: auto;
+    padding-top: 80px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+    max-width: 800px;
+}
+
+.thor {
+    text-align: center;
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 20px;
+    padding-left: 500px; 
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.action {
+    background-color: #3882f6;
+    max-width: 800px;
+    border-radius: 6px;
+    display: block;
+    margin: 50px auto;}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+
+}
+
+.call {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.sign {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.nest {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.button2 {
+    background-color: #3882f6;
+    padding: 10px 24px;
+    color: #E5e7eb;
+    max-width: fit-content;
+    border-radius: 6px;
+    border-color: #E5E7EB;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 12px;
+    text-align: center;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
